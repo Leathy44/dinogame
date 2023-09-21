@@ -6,6 +6,8 @@ import 'package:game/directions.dart';
 
     Direction direction = Direction.none;
     
+      static get Vector2 => null;
+    
     @override
     
     void update(double dt) {
